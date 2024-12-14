@@ -11,8 +11,21 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        midnight: "#3730a3"
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#022c22",
+
+        }
+      }
+    ],
+  }
 } satisfies Config;
