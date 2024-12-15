@@ -14,6 +14,10 @@ export default {
         midnight: "#3730a3"
       },
     },
+    /** TODO: Insert custom fonts here to add onto personal website. */
+    fontFamily: {
+
+    }
   },
   plugins: [
     require('daisyui'),
@@ -23,7 +27,7 @@ export default {
       {
         mytheme: {
           primary: "#022c22",
-
+          secondary: "#064e3b",
         }
       }
     ],
