@@ -11,25 +11,22 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        midnight: "#3730a3"
+        primary: "#000000",
+        midnight: "#3730a3",
+        secondary: "#18181b",
+      },
+      /** TODO: Insert custom fonts here to add onto personal website. */
+      fontFamily: {
+        primary: ["Courier Prime", "serif"],
       },
     },
-    /** TODO: Insert custom fonts here to add onto personal website. */
-    fontFamily: {
-
-    }
   },
-  plugins: [
-    require('daisyui'),
-  ],
+  plugins: [require("daisyui")],
   daisyui: {
     themes: [
       {
-        mytheme: {
-          primary: "#000000",
-          secondary: "#18181b",
-        }
-      }
+        mytheme: {},
+      },
     ],
-  }
+  },
 } satisfies Config;
