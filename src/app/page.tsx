@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="">
-      <div className="navbar bg-primary font-sans text-xl">
+      <div className="navbar bg-secondary font-sans text-xl">
         <div className="flex-1">
           <a className="font-sans btn btn-ghost text-xl">dkl</a>
         </div>

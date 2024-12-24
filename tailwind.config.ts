@@ -26,8 +26,8 @@ export default {
     themes: [
       {
         mytheme: {
-          primary: "#022c22",
-          secondary: "#064e3b",
+          primary: "#000000",
+          secondary: "#18181b",
         }
       }
     ],
