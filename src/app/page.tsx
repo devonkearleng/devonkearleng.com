@@ -34,7 +34,9 @@ export default function Home() {
     <div className="">
       <div className="navbar bg-secondary font-primary text-xl">
         <div className="flex-1">
-          <a className="font-primary btn btn-ghost text-xl">dkl</a>
+          <a href="/" className="font-primary btn btn-ghost text-xl">
+            dkl
+          </a>
         </div>
         {/* TODO: Figure out how to put a custom font for these words */}
         <div className="flex-none">
@@ -62,6 +64,8 @@ export default function Home() {
           </ul>
         </div>
       </div>
+      {/* TODO: Fix this issue. When this style is inserted it makes it such that I can no longer click 
+        the pages on the Navbar. */}
       <div
         style={{ position: "relative", top: "-150px" }}
         className="hero bg-box min-h-screen"
@@ -108,7 +112,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      { /* TODO: Insert "Experience" Title Here */}
+      {/* TODO: Insert "Experience" Title Here */}
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">
