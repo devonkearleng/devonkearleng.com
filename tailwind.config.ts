@@ -13,7 +13,7 @@ export default {
         foreground: "var(--foreground)",
         primary: "#000000",
         midnight: "#3730a3",
-        secondary: "#18181b",
+        secondary: "var(--secondary)",
       },
       /** TODO: Insert custom fonts here to add onto personal website. */
       fontFamily: {
